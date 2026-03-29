@@ -310,3 +310,5 @@ combos:
   k: ;
 - p: [38, 32]
   k: ESC
+- p: [20, 32]
+  k: ENTER
