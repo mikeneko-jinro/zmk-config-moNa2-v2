@@ -43,6 +43,11 @@
             bindings = <&kp ESC>;
             key-positions = <38 32>;
         };
+
+        enter {
+            bindings = <&kp ENTER>;
+            key-positions = <20 32>;
+        };
     };
 
     macros {
