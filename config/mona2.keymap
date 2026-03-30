@@ -46,7 +46,7 @@
 
         enter {
             bindings = <&kp ENTER>;
-            key-positions = <20 32>;
+            key-positions = <19 18>;
         };
     };
 
@@ -91,10 +91,10 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp W         &kp E         &kp R        &kp T                                                               &kp Y        &kp U  &lt 5 I    &kp O    &kp P
-&kp A             &kp S         &kp D         &kp F        &kp G                                  &kp UP_ARROW                 &kp H        &kp J  &kp K      &kp L    &kp MINUS
-&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V        &kp B        &lt 4 ENTER               &kp DOWN                     &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt 1 LANG2  &lt 2 LANG1  &lt_to_layer_0 3 SPACE    &lt_to_layer_0 3 LEFT_ARROW  &lt 1 RIGHT                             &kp BACKSPACE
+&kp Q             &kp W         &kp E         &kp R        &kp T                                                 &kp Y            &kp U  &lt 5 I    &kp O    &kp P
+&kp A             &kp S         &kp D         &kp F        &kp G                                  &kp PAGE_UP    &kp H            &kp J  &kp K      &kp L    &kp MINUS
+&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V        &kp B        &lt 4 ENTER               &kp PAGE_DOWN  &kp N            &kp M  &kp COMMA  &kp DOT  &kp SLASH
+&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt 1 LANG2  &lt 2 LANG1  &lt_to_layer_0 3 SPACE    &kp BACKSPACE  &mt RSHFT ENTER                             &kp BACKSPACE
             >;
 
             sensor-bindings = <&scroll_up_down>;
@@ -102,10 +102,10 @@
 
         layer_1 {
             bindings = <
-&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3      &kp NUMBER_4       &kp NUMBER_5                    &kp NUMBER_6  &kp NUMBER_7          &kp NUMBER_8           &kp NUMBER_9  &kp NUMBER_0
-&trans        &trans        &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans                  &trans  &trans        &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans        &kp BACKSLASH
-&trans        &trans        &trans            &trans             &trans        &trans    &trans  &trans        &trans                &trans                 &trans        &kp PIPE
-&trans        &trans        &trans            &trans             &trans        &trans    &trans  &trans                                                                   &trans
+&kp ASTERISK  &kp PLUS      &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9                     &trans  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans  &kp NUMBER_0
+&kp SLASH     &kp MINUS     &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6            &trans   &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans  &kp BACKSLASH
+&kp EQUAL     &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans    &trans   &trans  &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans  &kp PIPE
+&trans        &trans        &kp PERIOD    &trans        &trans        &trans    &kp DEL  &trans                                                       &trans
             >;
 
             sensor-bindings = <&scroll_right_left>;
