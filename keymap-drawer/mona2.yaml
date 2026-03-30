@@ -16,7 +16,7 @@ layers:
   - D
   - F
   - G
-  - UP ARROW
+  - PAGE UP
   - H
   - J
   - K
@@ -28,7 +28,7 @@ layers:
   - V
   - B
   - {t: ENTER, h: '4'}
-  - DOWN
+  - PAGE DOWN
   - N
   - M
   - ','
@@ -40,50 +40,50 @@ layers:
   - {t: LANG2, h: '1'}
   - {t: LANG1, h: '2'}
   - {t: '&to_layer_0 SPACE', h: '3'}
-  - {t: '&to_layer_0 LEFT_ARROW', h: '3'}
-  - {t: RIGHT, h: '1'}
+  - BACKSPACE
+  - {t: ENTER, h: RSHFT}
   - BACKSPACE
   '1':
-  - '1'
-  - '2'
-  - '3'
-  - '4'
-  - '5'
-  - '6'
+  - '*'
+  - +
   - '7'
   - '8'
   - '9'
-  - '0'
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '['
   - ']'
   - {t: ▽, type: trans}
+  - '0'
+  - /
+  - '-'
+  - '4'
+  - '5'
+  - '6'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - (
   - )
   - {t: ▽, type: trans}
   - \
+  - '='
+  - '0'
+  - '1'
+  - '2'
+  - '3'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '{'
+  - '}'
   - {t: ▽, type: trans}
   - '|'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - .
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - DEL
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   '2':
@@ -310,5 +310,5 @@ combos:
   k: ;
 - p: [38, 32]
   k: ESC
-- p: [20, 32]
+- p: [19, 18]
   k: ENTER
