@@ -41,12 +41,22 @@
 
         esc {
             bindings = <&kp ESC>;
-            key-positions = <38 32>;
+            key-positions = <38 41>;
         };
 
         enter {
             bindings = <&kp ENTER>;
             key-positions = <19 18>;
+        };
+
+        PSCR {
+            bindings = <&kp PRINTSCREEN>;
+            key-positions = <9 41>;
+        };
+
+        atmark {
+            bindings = <&kp AT>;
+            key-positions = <20 19>;
         };
     };
 
