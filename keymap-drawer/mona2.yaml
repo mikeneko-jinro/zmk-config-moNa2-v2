@@ -44,14 +44,14 @@ layers:
   - {t: LANG1, h: RIGHT COMMAND}
   - GLOBE
   '1':
-  - '*'
+  - Sft+;
   - +
   - '7'
   - '8'
   - '9'
   - {t: ▽, type: trans}
-  - '['
   - ']'
+  - \
   - {t: ▽, type: trans}
   - '0'
   - /
@@ -61,10 +61,10 @@ layers:
   - '6'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - (
-  - )
+  - Sft+8
+  - Sft+9
   - {t: ▽, type: trans}
-  - \
+  - INTERNATIONAL 3
   - '='
   - '0'
   - '1'
@@ -73,8 +73,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '{'
-  - '}'
+  - Sft+]
+  - Sft+\
   - {t: ▽, type: trans}
   - '|'
   - {t: ▽, type: trans}
@@ -315,4 +315,4 @@ combos:
 - p: [9, 41]
   k: PRINTSCREEN
 - p: [20, 19]
-  k: '@'
+  k: '['
