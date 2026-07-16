@@ -55,7 +55,7 @@
         };
 
         atmark {
-            bindings = <&kp AT>;
+            bindings = <&kp LEFT_BRACKET>;
             key-positions = <20 19>;
         };
     };
@@ -112,10 +112,10 @@
 
         layer_1 {
             bindings = <
-&kp ASTERISK  &kp PLUS      &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9                     &trans  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans  &kp NUMBER_0
-&kp SLASH     &kp MINUS     &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6            &trans   &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans  &kp BACKSLASH
-&kp EQUAL     &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans    &trans   &trans  &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans  &kp PIPE
-&trans        &trans        &kp PERIOD    &trans        &trans        &trans    &kp DEL  &trans                                                       &trans
+&kp LS(SEMI)  &kp PLUS      &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9                     &trans  &kp RIGHT_BRACKET  &kp BACKSLASH      &trans  &kp NUMBER_0
+&kp SLASH     &kp MINUS     &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6            &trans   &trans  &kp LS(N8)         &kp LS(N9)         &trans  &kp INTERNATIONAL_3
+&kp EQUAL     &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans    &trans   &trans  &kp LS(RBKT)       &kp LS(BACKSLASH)  &trans  &kp PIPE
+&trans        &trans        &kp PERIOD    &trans        &trans        &trans    &kp DEL  &trans                                                &trans
             >;
 
             sensor-bindings = <&scroll_right_left>;
