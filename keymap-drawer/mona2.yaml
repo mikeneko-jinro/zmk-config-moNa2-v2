@@ -39,43 +39,43 @@ layers:
   - LEFT ALT
   - {t: LANG2, h: '1'}
   - {t: LANG1, h: '2'}
-  - {t: '&to_layer_0 SPACE', h: '3'}
+  - SPACE
   - BACKSPACE
   - {t: LANG1, h: RIGHT COMMAND}
   - GLOBE
   '1':
-  - Sft+;
-  - +
+  - {t: ▽, type: trans}
   - '7'
   - '8'
   - '9'
+  - '9'
   - {t: ▽, type: trans}
+  - '['
   - ']'
-  - \
   - {t: ▽, type: trans}
   - '0'
-  - /
-  - '-'
+  - '0'
   - '4'
   - '5'
   - '6'
+  - '6'
+  - '*'
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - Sft+8
-  - Sft+9
-  - {t: ▽, type: trans}
-  - INTERNATIONAL 3
+  - (
+  - )
   - '='
-  - '0'
+  - INTERNATIONAL 3
+  - .
   - '1'
   - '2'
   - '3'
+  - '3'
   - {t: ▽, type: trans}
+  - /
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - Sft+]
-  - Sft+\
-  - {t: ▽, type: trans}
+  - '{'
+  - '}'
+  - DEL
   - '|'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -83,8 +83,8 @@ layers:
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - DEL
-  - {t: ▽, type: trans}
+  - '-'
+  - +
   - {t: ▽, type: trans}
   '2':
   - '!'
@@ -92,29 +92,17 @@ layers:
   - '#'
   - $
   - '%'
-  - ^
-  - '&'
-  - '*'
-  - '-'
-  - _
-  - '`'
-  - '~'
-  - '"'
-  - ''''
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '&mkp MB3'
-  - '&mkp MB1'
-  - '&mkp MB2'
-  - '='
-  - +
   - F1
   - F2
   - F3
   - F4
   - F5
-  - F11
-  - F12
+  - '`'
+  - '~'
+  - '"'
+  - ''''
+  - {t: ▽, type: trans}
+  - UP ARROW
   - F6
   - F7
   - F8
@@ -124,10 +112,22 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - DOWN ARROW
+  - F11
+  - F12
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - LEFT ARROW
+  - RIGHT ARROW
   - {t: ▽, type: trans}
   '3':
   - {t: ▽, type: trans}
@@ -168,7 +168,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -315,4 +315,6 @@ combos:
 - p: [9, 41]
   k: PRINTSCREEN
 - p: [20, 19]
-  k: '['
+  k: '@'
+- p: [32, 31]
+  k: _
